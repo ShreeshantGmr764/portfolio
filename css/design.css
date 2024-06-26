@@ -66,6 +66,9 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
+.text:hover ~ .nav_bar {
+  background-color: transparent;
+}
 
 .text .div1 {
   font-size: 1.5rem;
@@ -252,7 +255,7 @@ small {
 }
 
 #res {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .resume_text {
@@ -342,4 +345,95 @@ small {
   "Segoe UI Symbol"
   "Noto Color Emoji";
   font-size: 0.8rem;
+}
+.about_me{
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  grid-template-rows: auto;
+  justify-content:center;
+  height: 30rem;
+  width:50%;
+  column-gap: 5rem;
+  margin-left: 25%;
+}
+.my_image{
+  width: 30rem;
+  height: 40rem;
+  background-image: url(../Image/image_1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.my_text{
+  color: white;
+  width: 25rem;
+  display: grid;
+  grid-template-rows: repeat(4,2rem);
+  row-gap: 1rem;
+}
+#about_id{
+  font-size: 1.3rem;
+  font-weight: 100;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 2rem;
+}
+.about_me1{
+  height:1.3rem;
+}
+.about_me_text1{
+  row-gap: 2rem;
+}
+.about_me_text{
+  display: grid;
+  grid-template-rows: repeat(3,auto);
+}
+.about_me_text1{
+  color: 
+  RGBA(255, 255, 255, 0.4);
+  font-size: 1rem;
+  font-weight: 100;
+  margin-bottom: 5%;
+}
+.about_me_text2{
+  color:RGBA(255, 255, 255, 0.4) ;
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin-bottom: 5%;
+}
+.button_container{
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 1rem;
+}
+#hire{
+  background-color: yellowgreen;
+  color: #ffffff;
+  border: 2px solid transparent;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 1rem;
+  padding: 5%;
+  text-transform: uppercase;
+  font-size:0.6rem ;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+}
+#cv{
+  background-color: #6c757d;
+  border: 2px solid transparent;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 1rem;
+  padding: 5%;
+  text-transform: uppercase;
+  color: white;
+  font-size:0.6rem ;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+}
+.client h2{
+color:white ;
+font-size: 2rem;
+font-weight: 100;
+text-align: center;
 }
