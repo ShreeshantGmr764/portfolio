@@ -21,12 +21,12 @@
 
 .nav_bar a {
   text-decoration: none;
-  color: black;
-  text-transform: capitalize;
+  color: white;
+  text-transform: uppercase;
 }
 
 .nav_bar a:hover {
-  color: aliceblue;
+  color: rgba(153, 205, 50, 0.788);
   text-transform: uppercase;
 }
 
@@ -431,9 +431,77 @@ small {
   letter-spacing: 0.2rem;
   font-weight: 200;
 }
-.client h2{
-color:white ;
-font-size: 2rem;
+.client_heading{
+  position: relative;
+  left: 50%;
+}
+.client_heading h2{
+  display: flex;
+ column-gap: .5rem;
+}
+.cli{
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-weight: 100;
+  margin-top: 5%;
+}
+.client{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  grid-template-rows: repeat(2,auto);
+  margin-top: 5%;
+  justify-content: center;
+  column-gap: 1.5rem;
+}
+.client1{
+  display: flex;
+  column-gap: 2rem;
+}
+.client_text{
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  height:7rem;
+  width: 18rem;
+  /* row-gap: 2rem; */
+  border: 2px solid transparent;
+  border-radius: .5rem;
+  padding: 1rem;
+  margin-bottom: 10%;
+  justify-content: center;
+  position: relative;
+
+}
+.popup{
+  position: absolute;
+  /* width: 100px;
+  width: 100px;
+  background:red; */
+  /* background: red; */
+  left: -15px;
+  top: 18px;
+  border-right: 15px solid  #333;
+  /* border-top: 10px solid  transparent; */
+  border-bottom: 8px solid  transparent;
+}
+.client_image img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.quote{
+  color: 
+RGBA(255, 255, 255, 0.4);
+font-size: 0.8rem;
+row-gap: 0.2rem;
 font-weight: 100;
-text-align: center;
+}
+.author{
+  font-size: .7rem;
+  color: 
+RGB(102, 102, 102);
+}
+#xyz{
+  color: yellowgreen;
 }
